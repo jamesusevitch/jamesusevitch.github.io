@@ -6,10 +6,20 @@
     <description>Recent content on James Usevitch</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2019 00:21:46 -0400</lastBuildDate>
     
 	    <atom:link href="https://jamesusevitch.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Resilient Leader-Follower Trajectory Tracking</title>
+      <link>https://jamesusevitch.github.io/project/tardec_msrpa/</link>
+      <pubDate>Fri, 30 Aug 2019 00:21:46 -0400</pubDate>
+      
+      <guid>https://jamesusevitch.github.io/project/tardec_msrpa/</guid>
+      <description>&lt;p&gt;This is a test&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Determining r- and (r,s)-Robustness of Digraphs using Mixed Integer Linear Programming</title>
