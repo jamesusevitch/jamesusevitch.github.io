@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Several algorithms in prior literature have been proposed which guarantee consensus of normally behaving agents in a network that may contain adversarially behaving agents. These algorithms guarantee that the consensus value lies within the convex hull of initial normal agents&#39; states, with the exact consensus value possibly being unknown. In leader-follower consensus problems however, the objective is for normally behaving agents to track a reference state that may take on values outside of this convex hull. In this paper we present methods for agents in time-varying graphs with discrete-time dynamics to resiliently track a reference state propagated by a set of leaders despite a bounded subset of the leaders and followers behaving adversarially. Our results are demonstrated through simulations.">
+  <meta name="description" content="Many algorithms have been proposed in prior literature to guarantee resilient multi-agent consensus in the presence of adversarial attacks or faults. The majority of prior work present excellent results that focus on discrete-time or discretized continuous-time systems. Fewer authors have explored applying similar resilient techniques to continuous-time systems without discretization. These prior works typically consider asymptotic convergence and make assumptions such as continuity of adversarial signals, the existence of a dwell time between switching instances for the system dynamics, or the existence of trusted agents that do not misbehave. In this paper, we expand the study of resilient continuous-time systems by removing many of these assumptions and using discontinuous systems theory to provide conditions for normally-behaving agents with nonlinear dynamics to achieve consensus in finite time despite the presence of adversarial agents.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://jamesusevitch.github.io/publication/lead_follow_2019_tac/">
+  <link rel="alternate" hreflang="en-us" href="https://jamesusevitch.github.io/publication/strong_invariance_cbf/">
 
   
 
@@ -97,7 +97,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://jamesusevitch.github.io/publication/lead_follow_2019_tac/">
+  <link rel="canonical" href="https://jamesusevitch.github.io/publication/strong_invariance_cbf/">
 
   
   
@@ -109,26 +109,26 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="James Usevitch">
-  <meta property="og:url" content="https://jamesusevitch.github.io/publication/lead_follow_2019_tac/">
-  <meta property="og:title" content="Resilient Leader-Follower Consensus to Arbitrary Reference Values in Time-Varying Graphs | James Usevitch">
-  <meta property="og:description" content="Several algorithms in prior literature have been proposed which guarantee consensus of normally behaving agents in a network that may contain adversarially behaving agents. These algorithms guarantee that the consensus value lies within the convex hull of initial normal agents&#39; states, with the exact consensus value possibly being unknown. In leader-follower consensus problems however, the objective is for normally behaving agents to track a reference state that may take on values outside of this convex hull. In this paper we present methods for agents in time-varying graphs with discrete-time dynamics to resiliently track a reference state propagated by a set of leaders despite a bounded subset of the leaders and followers behaving adversarially. Our results are demonstrated through simulations."><meta property="og:image" content="https://jamesusevitch.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://jamesusevitch.github.io/publication/strong_invariance_cbf/">
+  <meta property="og:title" content="Strong Invariance using Control Barrier Functions - A Clarke Tangent Cone Approach | James Usevitch">
+  <meta property="og:description" content="Many algorithms have been proposed in prior literature to guarantee resilient multi-agent consensus in the presence of adversarial attacks or faults. The majority of prior work present excellent results that focus on discrete-time or discretized continuous-time systems. Fewer authors have explored applying similar resilient techniques to continuous-time systems without discretization. These prior works typically consider asymptotic convergence and make assumptions such as continuity of adversarial signals, the existence of a dwell time between switching instances for the system dynamics, or the existence of trusted agents that do not misbehave. In this paper, we expand the study of resilient continuous-time systems by removing many of these assumptions and using discontinuous systems theory to provide conditions for normally-behaving agents with nonlinear dynamics to achieve consensus in finite time despite the presence of adversarial agents."><meta property="og:image" content="https://jamesusevitch.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://jamesusevitch.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-08-13T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2020-04-07T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2019-08-13T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2020-04-07T00:00:00&#43;00:00">
   
-
-  
-
 
   
 
 
+  
 
 
 
-  <title>Resilient Leader-Follower Consensus to Arbitrary Reference Values in Time-Varying Graphs | James Usevitch</title>
+
+
+  <title>Strong Invariance using Control Barrier Functions - A Clarke Tangent Cone Approach | James Usevitch</title>
 
 </head>
 
@@ -352,7 +352,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Resilient Leader-Follower Consensus to Arbitrary Reference Values in Time-Varying Graphs</h1>
+  <h1 itemprop="name">Strong Invariance using Control Barrier Functions - A Clarke Tangent Cone Approach</h1>
 
   
 
@@ -361,8 +361,8 @@
 
 
 
-<meta content="2019-08-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-08-13 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2020-04-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-04-07 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -375,7 +375,7 @@
     
       
     
-    <time>August 2019</time>
+    <time>April 2020</time>
   </span>
   
 
@@ -403,7 +403,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://jamesusevitch.github.io/publication/lead_follow_2019_tac/&amp;text=Resilient%20Leader-Follower%20Consensus%20to%20Arbitrary%20Reference%20Values%20in%20Time-Varying%20Graphs" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://jamesusevitch.github.io/publication/strong_invariance_cbf/&amp;text=Strong%20Invariance%20using%20Control%20Barrier%20Functions%20-%20A%20Clarke%20Tangent%20Cone%20Approach" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -416,7 +416,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://jamesusevitch.github.io/publication/lead_follow_2019_tac/&amp;t=Resilient%20Leader-Follower%20Consensus%20to%20Arbitrary%20Reference%20Values%20in%20Time-Varying%20Graphs" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://jamesusevitch.github.io/publication/strong_invariance_cbf/&amp;t=Strong%20Invariance%20using%20Control%20Barrier%20Functions%20-%20A%20Clarke%20Tangent%20Cone%20Approach" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -429,7 +429,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Resilient%20Leader-Follower%20Consensus%20to%20Arbitrary%20Reference%20Values%20in%20Time-Varying%20Graphs&amp;body=https://jamesusevitch.github.io/publication/lead_follow_2019_tac/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Strong%20Invariance%20using%20Control%20Barrier%20Functions%20-%20A%20Clarke%20Tangent%20Cone%20Approach&amp;body=https://jamesusevitch.github.io/publication/strong_invariance_cbf/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -442,7 +442,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://jamesusevitch.github.io/publication/lead_follow_2019_tac/&amp;title=Resilient%20Leader-Follower%20Consensus%20to%20Arbitrary%20Reference%20Values%20in%20Time-Varying%20Graphs" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://jamesusevitch.github.io/publication/strong_invariance_cbf/&amp;title=Strong%20Invariance%20using%20Control%20Barrier%20Functions%20-%20A%20Clarke%20Tangent%20Cone%20Approach" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -455,7 +455,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Resilient%20Leader-Follower%20Consensus%20to%20Arbitrary%20Reference%20Values%20in%20Time-Varying%20Graphs%20https://jamesusevitch.github.io/publication/lead_follow_2019_tac/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Strong%20Invariance%20using%20Control%20Barrier%20Functions%20-%20A%20Clarke%20Tangent%20Cone%20Approach%20https://jamesusevitch.github.io/publication/strong_invariance_cbf/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -468,7 +468,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://jamesusevitch.github.io/publication/lead_follow_2019_tac/&amp;title=Resilient%20Leader-Follower%20Consensus%20to%20Arbitrary%20Reference%20Values%20in%20Time-Varying%20Graphs" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://jamesusevitch.github.io/publication/strong_invariance_cbf/&amp;title=Strong%20Invariance%20using%20Control%20Barrier%20Functions%20-%20A%20Clarke%20Tangent%20Cone%20Approach" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -512,7 +512,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1109/TAC.2019.2934954" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2004.03733" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -544,7 +544,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Several algorithms in prior literature have been proposed which guarantee consensus of normally behaving agents in a network that may contain adversarially behaving agents. These algorithms guarantee that the consensus value lies within the convex hull of initial normal agents&rsquo; states, with the exact consensus value possibly being unknown. In leader-follower consensus problems however, the objective is for normally behaving agents to track a reference state that may take on values outside of this convex hull. In this paper we present methods for agents in time-varying graphs with discrete-time dynamics to resiliently track a reference state propagated by a set of leaders despite a bounded subset of the leaders and followers behaving adversarially. Our results are demonstrated through simulations.</p>
+    <p class="pub-abstract" itemprop="text">Many algorithms have been proposed in prior literature to guarantee resilient multi-agent consensus in the presence of adversarial attacks or faults. The majority of prior work present excellent results that focus on discrete-time or discretized continuous-time systems. Fewer authors have explored applying similar resilient techniques to continuous-time systems without discretization. These prior works typically consider asymptotic convergence and make assumptions such as continuity of adversarial signals, the existence of a dwell time between switching instances for the system dynamics, or the existence of trusted agents that do not misbehave. In this paper, we expand the study of resilient continuous-time systems by removing many of these assumptions and using discontinuous systems theory to provide conditions for normally-behaving agents with nonlinear dynamics to achieve consensus in finite time despite the presence of adversarial agents.</p>
     
 
     
@@ -555,7 +555,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">IEEE Transactions on Automatic Control, April 2020, Volume 65, Issue 4</div>
+          <div class="col-12 col-md-9">Submitted to 2020 IEEE 59th Conference on Decision and Control, Jeju Island, Republic of Korea</div>
         </div>
       </div>
       <div class="col-md-1"></div>
