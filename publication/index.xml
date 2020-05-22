@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on James Usevitch</title>
+    <link>https://jamesusevitch.github.io/publication/</link>
+    <description>Recent content in Publications on James Usevitch</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://jamesusevitch.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Strong Invariance using Control Barrier Functions - A Clarke Tangent Cone Approach</title>
+      <link>https://jamesusevitch.github.io/publication/strong_invariance_cbf/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesusevitch.github.io/publication/strong_invariance_cbf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resilient Finite Time Consensus - A Discontinuous Systems Approach</title>
+      <link>https://jamesusevitch.github.io/publication/resilient_finite_time_consensus/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesusevitch.github.io/publication/resilient_finite_time_consensus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Determining r- and (r,s)-Robustness of Digraphs using Mixed Integer Linear Programming</title>
+      <link>https://jamesusevitch.github.io/publication/determining-r-rs/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesusevitch.github.io/publication/determining-r-rs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resilient Leader-Follower Consensus to Arbitrary Reference Values in Time-Varying Graphs</title>
+      <link>https://jamesusevitch.github.io/publication/lead_follow_2019_tac/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesusevitch.github.io/publication/lead_follow_2019_tac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Determining r-Robustness of Digraphs using Mixed Integer Linear Programming</title>
+      <link>https://jamesusevitch.github.io/publication/determining-r/</link>
+      <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesusevitch.github.io/publication/determining-r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resilient Leader-Follower Consensus with Time-Varying Leaders in Discrete-Time Systems</title>
+      <link>https://jamesusevitch.github.io/publication/lead_follow_time_varying_leaders_2019_cdc/</link>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesusevitch.github.io/publication/lead_follow_time_varying_leaders_2019_cdc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resilience in Multi-Agent Systems: Recent Contributions</title>
+      <link>https://jamesusevitch.github.io/publication/icra-2019/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesusevitch.github.io/publication/icra-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite-Time Resilient Formation Control with Bounded Inputs</title>
+      <link>https://jamesusevitch.github.io/publication/finite_time_2018_cdc/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesusevitch.github.io/publication/finite_time_2018_cdc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resilient Leader-Follower Consensus to Arbitrary Reference Values</title>
+      <link>https://jamesusevitch.github.io/publication/resilient_lead_follow_tac/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesusevitch.github.io/publication/resilient_lead_follow_tac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r-Robustness and (r, s)-robustness of Circulant Graphs</title>
+      <link>https://jamesusevitch.github.io/publication/r_and_rs_robustness_2017/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesusevitch.github.io/publication/r_and_rs_robustness_2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
